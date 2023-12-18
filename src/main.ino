@@ -223,6 +223,36 @@ void leftLED(){
 //unnecessarily long functions
 //working for chinese pinout display :)
 
+void DIGIT_1()
+{
+  digitalWrite(D1,LOW);
+  digitalWrite(D2,HIGH);
+  digitalWrite(D3,HIGH);
+  digitalWrite(D4,HIGH);
+}
+void DIGIT_2()
+{
+  digitalWrite(D1,HIGH);
+  digitalWrite(D2,LOW);
+  digitalWrite(D3,HIGH);
+  digitalWrite(D4,HIGH);
+}
+void DIGIT_3()
+{
+  digitalWrite(D1,HIGH);
+  digitalWrite(D2,HIGH);
+  digitalWrite(D3,LOW);
+  digitalWrite(D4,HIGH);
+}
+void DIGIT_4()
+{
+  digitalWrite(D1,HIGH);
+  digitalWrite(D2,HIGH);
+  digitalWrite(D3,HIGH);
+  digitalWrite(D4,LOW);
+}
+
+
 void LED_1_3 (){
 digitalWrite(pinA, HIGH);
 digitalWrite(pinB, LOW);
@@ -307,31 +337,3 @@ X=5;
 Y=3;
 }
 
-void DIGIT_1()
-{
-  digitalWrite(D1,LOW);
-  digitalWrite(D2,HIGH);
-  digitalWrite(D3,HIGH);
-  digitalWrite(D4,HIGH);
-}
-void DIGIT_2()
-{
-  digitalWrite(D1,HIGH);
-  digitalWrite(D2,LOW);
-  digitalWrite(D3,HIGH);
-  digitalWrite(D4,HIGH);
-}
-void DIGIT_3()
-{
-  digitalWrite(D1,HIGH);
-  digitalWrite(D2,HIGH);
-  digitalWrite(D3,LOW);
-  digitalWrite(D4,HIGH);
-}
-void DIGIT_4()
-{
-  digitalWrite(D1,HIGH);
-  digitalWrite(D2,HIGH);
-  digitalWrite(D3,HIGH);
-  digitalWrite(D4,LOW);
-}
