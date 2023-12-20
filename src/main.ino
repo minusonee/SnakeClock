@@ -1,14 +1,4 @@
-/*  README
 
-TLDR
-
-This is a simple Snake-type game/demonstration for the Arduino uno rev.3 made in plaform.io controlled by an analogue joystick and displayed on a 4-digit 7-segment clock display.
-Joystick imputs may vary so be sure to edit the thresholds in the loop function.
-Pinout for the clock can be found on https://i0.wp.com/www.electronicssimplified.in/wp-content/uploads/2022/06/7Segmentrec_bb.png?resize=768%2C689&ssl=1 with more info on https://www.electronicssimplified.in/feed/2062/.
-Pinout for the joystick may vary but this project uses a 5-pin analogue joystick with a ground,a 5V connection, 2 analogue pins and one unused button pin.
-Enjoy this project and have fun.
-
-*/
 #include <Arduino.h>
 
 int pinA = 11;int pinB = 7;int pinC = 4;int pinD = 2;
@@ -219,12 +209,6 @@ void leftLED(){
   
   
 }
-
-//unnecessarily long functions
-//working for chinese pinout display :)
-
-
-
 
 void LED_1_3 (){
 digitalWrite(pinA, HIGH);
