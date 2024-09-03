@@ -1,4 +1,3 @@
-
 #include <Arduino.h>
 
 int pinA = 11;int pinB = 7;int pinC = 4;int pinD = 2;
@@ -322,4 +321,3 @@ void DIGIT_4()
   digitalWrite(D3,HIGH);
   digitalWrite(D4,LOW);
 }
-
